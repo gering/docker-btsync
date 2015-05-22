@@ -7,7 +7,7 @@ BitTorrent Sync
 
 ## Running
 
-    $ docker run -d --name=btsync -p 8888:8888 -v /myconfigs/btsync.conf:/btsync.conf gering/btsync
+    $ docker run -d --name=btsync -p 8888:8888 -v /srv/btsync:/btsync gering/btsync
 
 ## Building
 
