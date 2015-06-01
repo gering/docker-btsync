@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Robert Gering "mail@robertgering.de"
 
-RUN groupadd -r -g 998 btsync && useradd -r -u 998 -g btsync btsync
+RUN groupadd -r btsync && useradd -r -g btsync btsync
 
 # Download and extract the executable to /usr/bin
 ADD http://download-new.utorrent.com/endpoint/btsync/os/linux-x64/track/stable /usr/bin/btsync.tar.gz
