@@ -24,7 +24,11 @@ BitTorrent Sync
 From sources:
 
     $ docker build github.com/gering/docker-btsync
- 
    
 ## Tutorial
+
 More details are available in [this tutorial](http://blog.bittorrent.com/2013/10/22/sync-hacks-deploy-bittorrent-sync-with-docker/).
+
+## License
+
+[See LICENSE](/LICENSE)
