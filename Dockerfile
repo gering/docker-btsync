@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Robert Gering "mail@robertgering.de"
+MAINTAINER Robert Gering "http://robertgering.de"
 
 RUN groupadd -r btsync && useradd -r -g btsync btsync
 
